@@ -1,0 +1,37 @@
+body{
+    /* background-color: red; */
+}
+#services{
+    flex-direction: column;
+}
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 650px;
+}
+#home::before{
+    height: 615px;
+    
+}
+#home h1{
+    font-size: 30px;
+    text-align: center;
+}
+#home p{
+    font-size: 13px;
+    text-align: center;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 20px;
+}
+.btn{
+    font-size: 15px;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
